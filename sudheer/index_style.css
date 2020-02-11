@@ -1,0 +1,16 @@
+a:hover
+{
+	font-size: 30px;
+}
+/* psuedo-element : following piece of code is example for psuedo element*/
+h1::first-letter
+{
+ font-size: xxx-large;
+ color:blue;
+}
+/* Attribute selector : following piece of code is example attribute selector*/
+a[target="back"]
+{
+	background-color:yellow;
+}
+
