@@ -1,0 +1,45 @@
+/* following is example of Child Selector*/
+table 
+{
+	width: 100%;
+}
+
+td
+{
+	text-align: center;
+}
+
+
+/* Combinator : following is example of Child Selector*/
+tr > th
+{
+	border:1px solid black;
+	border-collapse: collapse;
+
+}
+/* psuedo-class : following piece of code is example for psuedo class*/
+td:hover,a:hover
+{
+	color: red;
+}
+a:hover
+{
+	font-size: 30px;
+}
+img:hover
+{
+	width: 340px;
+	height:340px;
+}
+/* psuedo-element : following piece of code is example for psuedo element*/
+h1::first-letter
+{
+ font-size: xxx-large;
+ color:blue;
+}
+/* Attribute selector : following piece of code is example attribute selector*/
+a[target="back"]
+{
+	background-color:yellow;
+}
+
